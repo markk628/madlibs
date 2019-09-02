@@ -16,6 +16,10 @@ noun10 = input("Enter another noun: ")
 emotion = input("Enter an emotion: ")
 verb3 = input("Enter a past tense verb (-ed): ")
 
-print("Lunchtime in our cafeteria is always " + adj1 + ".")
-print("They serve hot " + noun1 + " and " + noun2 + ", but some students " + verb1 + " their own " + noun3 + " to eat. ")
-print("Some kids quietly " + verb2 + " their " + noun4 + ", while others throw " + noun5 + " or " + noun6 + " when the teachers aren't looking.")
+print(f'''Lunchtime in our cafeteria is always {adj1}. They serve hot {noun1}
+and {noun2}, but some students {verb1} their own {noun3} to eat. Some kids
+quietly {verb2} their {noun4}, while others throw {noun5} or {noun6} when the
+teachers aren't looking. One time, a bunch of kids mixed all of their unfinished
+{noun7} and {noun8} toghether to make a {adj2} mountain of {noun9} on a {noun10}.
+The teachers were {emotion}, but everyone had already {verb3} outsidee for recess,
+so nobody got in trouble.''')
