@@ -24,7 +24,7 @@ def madlibs():
     noun11 = input("Enter another noun: ")
     pronoun2 = input("Enter another pronoun: ")
 
-    print(f''' "\033[1;34;40m Lunchtime in our cafeteria is always {adj1}. They serve hot
+    print(f''' \033[1;34;40m Lunchtime in our cafeteria is always {adj1}. They serve hot
     {noun1} and {noun2}, but some students {verb1} their own {noun3} to eat.
     Some kids quietly {verb2} their {noun4}, while others throw {noun5} or
     {noun6} when the teachers aren't looking. One time, a bunch of kids mixed
