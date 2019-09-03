@@ -24,7 +24,6 @@ def madlibs():
     noun11 = input("Enter another noun: ")
     pronoun2 = input("Enter another pronoun: ")
 
-
     print(f''' "\033[1;34;40m Lunchtime in our cafeteria is always {adj1}. They serve hot
     {noun1} and {noun2}, but some students {verb1} their own {noun3} to eat.
     Some kids quietly {verb2} their {noun4}, while others throw {noun5} or
@@ -33,7 +32,7 @@ def madlibs():
     mountain of {noun9} on a {noun10}. The teachers were {emotion}. {number1}
     of the {number2} teachers got {adverb} drenched, but the rest were {verb3}.
     Things got so {adj3} that the principal showed up. {pronoun1} stated that
-    there will be no recess for a week, and the students replied bythrowing a
+    there will be no recess for a week, and the students replied by throwing a
     load of {noun11} at {pronoun2}.''')
 
 madlibs()
